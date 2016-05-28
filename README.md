@@ -1,6 +1,6 @@
 # laptop
 
-This sets up your Mac for development incl [dotfiles](https://github.com/kriskhaira/dotfiles).
+This is a script I use to set up my Mac laptop for development including [dotfiles](https://github.com/kriskhaira/dotfiles), Ruby, Node.js and even some OS X apps like Skype.
 
 
 ## Instructions
