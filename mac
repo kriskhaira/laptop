@@ -45,6 +45,7 @@ brew install imagemagick
 brew install node
 brew install rbenv
 brew install ruby-build
+brew install leiningen
 
 # Node-specific
 echo "Installing NVM"
