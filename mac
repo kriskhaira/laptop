@@ -56,7 +56,7 @@ nvm alias default 4.4.0
 
 # Node packages
 npm install -g firebase
-npm install - bower
+npm install -g bower
 npm install -g ember-cli
 
 # Databases
