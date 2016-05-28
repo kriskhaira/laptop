@@ -1,19 +1,24 @@
 # laptop
 
-This sets up your Mac for development.
+This sets up your Mac for development incl [dotfiles](https://github.com/kriskhaira/dotfiles).
+
 
 ## Instructions
 
-1. Set up your dotfiles first so you get a copy of .laptop.local which is run at the end of this script. See mine at [kriskhaira/dotfiles](https://github.com/kriskhaira/dotfiles).
-
-1. Clone this repo somewhere and run the laptop script.
+1. Clone this repo somewhere.
 
   ```
   git clone git@github.com:kriskhaira/laptop.git ~/code/laptop
+  ```
+  
+  
+1. Run the script.
+ 
+  ```
   ~/code/laptop/mac
   ```
 
-1. Install your Vim plugins
+1. Install the Vim plugins.
 
   ```
   vim

@@ -1,8 +1,22 @@
 #!/bin/sh
 
+# Homebrew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# Git
+brew install git
+
+# Set up dotfiles
+git clone git@github.com:kriskhaira/dotfiles.git ~/code/dotfiles
+ln -s ~/code/dotfiles ~/.dotfiles
+
+# RCM
+brew tap thoughtbot/formulae
+brew install rcm
+rcup
+
 # Unix
 brew install ctags
-brew install git
 brew install openssl
 brew install reattach-to-user-namespace
 brew install pt
