@@ -1,6 +1,6 @@
 # laptop
 
-This sets up your Mac for development
+This sets up your Mac for development.
 
 ## Instructions
 
@@ -12,15 +12,15 @@ This sets up your Mac for development
   git clone git@github.com:kriskhaira/laptop.git ~/code/laptop
   ~/code/laptop/mac
   ```
-   
+
 1. Install your Vim plugins
 
   ```
   vim
   :PlugInstall
   ```
-  
-  
+
+
 ## Credits
 
 * [thoughtbot/laptop](https://github.com/thoughtbot/laptop)
