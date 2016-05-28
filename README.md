@@ -19,3 +19,8 @@ This sets up your Mac for development
   vim
   :PlugInstall
   ```
+  
+  
+## Credits
+
+* [thoughtbot/laptop](https://github.com/thoughtbot/laptop)
