@@ -70,6 +70,7 @@ brew cask install whatsapp
 
 # Project Management
 brew cask install omnigraffle
+brew cask install --appdir="/Applications" google-drive
 
 # Productivity
 brew cask install appzapper
