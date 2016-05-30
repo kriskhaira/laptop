@@ -61,6 +61,7 @@ nvm alias default 4.4.0
 npm install -g firebase
 npm install -g bower
 npm install -g ember-cli
+brew install watchman
 
 # Other Languages
 brew install leiningen
