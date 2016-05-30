@@ -46,6 +46,8 @@ brew install imagemagick
 brew install node
 brew install rbenv
 brew install ruby-build
+rbenv install 2.3.0
+rbenv global 2.3.0
 brew install leiningen
 
 # Node-specific
