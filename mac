@@ -62,6 +62,7 @@ npm install -g firebase
 npm install -g bower
 npm install -g ember-cli
 brew install watchman
+brew cask install glueprint
 
 # Other Languages
 brew install leiningen
