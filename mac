@@ -81,6 +81,7 @@ brew cask install omnigraffle
 brew cask install --appdir="/Applications" google-drive
 
 # Productivity
+brew cask install quickcast
 brew cask install appzapper
 brew cask install bartender
 brew cask install textexpander
