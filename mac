@@ -71,6 +71,11 @@ brew install leiningen
 brew install mysql
 brew cask install sequel-pro
 
+# Networking
+brew cask install airvpn
+brew cask install tunnelblick
+brew cask install tunnelbear
+
 # PERSONAL -- move this to .local
 
 # IM
