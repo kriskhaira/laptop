@@ -21,11 +21,30 @@ brew install openssl
 brew install reattach-to-user-namespace
 brew install the_silver_searcher
 brew install pt
-brew install tmux
-brew install tmate
-brew install teamocil
 brew install zsh
 brew install mobile-shell
+
+# Ruby
+brew install rbenv
+brew install ruby-build
+rbenv install 2.3.0
+rbenv global 2.3.0
+
+# Node
+brew install node
+echo "Installing NVM"
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.1/install.sh | bash
+nvm install 4.4.0
+nvm use 4.4.0
+nvm alias default 4.4.0
+
+# Other Languages
+brew install leiningen
+
+# Shell environments
+brew install tmux
+brew install tmate
+gem install teamocil
 
 # Vim & IDEs
 brew cask install macvim
@@ -37,25 +56,11 @@ brew cask install atom
 # Image manipulation
 brew install imagemagick
 
-# Ruby
-brew install rbenv
-brew install ruby-build
-rbenv install 2.3.0
-rbenv global 2.3.0
-
 # GitHub/Git Tools
 brew install hub
 brew install git-flow
 brew install tig
 gem install git-up
-
-# Node
-brew install node
-echo "Installing NVM"
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.1/install.sh | bash
-nvm install 4.4.0
-nvm use 4.4.0
-nvm alias default 4.4.0
 
 # Frontend tools
 npm install -g firebase
@@ -63,9 +68,6 @@ npm install -g bower
 npm install -g ember-cli
 brew install watchman
 brew cask install glueprint
-
-# Other Languages
-brew install leiningen
 
 # Databases
 brew install mysql
