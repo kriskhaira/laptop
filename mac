@@ -62,6 +62,7 @@ brew install hub
 brew install git-flow
 brew install tig
 gem install git-up
+brew install bfg
 
 # Frontend tools
 npm install -g firebase
