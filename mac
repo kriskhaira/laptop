@@ -39,6 +39,7 @@ nvm use 4.4.0
 nvm alias default 4.4.0
 
 # Other Languages
+brew install Caskroom/cask/java
 brew install leiningen
 
 # Shell environments
