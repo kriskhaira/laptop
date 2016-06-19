@@ -79,6 +79,7 @@ brew cask install sequel-pro
 brew cask install airvpn
 brew cask install tunnelblick
 brew cask install tunnelbear
+brew install homebrew/binary/ngrok2
 
 # PERSONAL -- move this to .local
 
