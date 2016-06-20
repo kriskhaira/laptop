@@ -65,6 +65,7 @@ gem install git-up
 brew install bfg
 
 # Frontend tools
+npm install -g netlify
 npm install -g firebase
 npm install -g bower
 npm install -g ember-cli
