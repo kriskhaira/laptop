@@ -15,14 +15,10 @@ brew tap thoughtbot/formulae
 brew install rcm
 rcup
 
-# Unix
-brew install ctags
+# Useful tools
 brew install openssl
 brew install reattach-to-user-namespace
-brew install the_silver_searcher
-brew install pt
 brew install zsh
-brew install mobile-shell
 
 # Ruby
 brew install rbenv
@@ -48,6 +44,10 @@ brew install tmate
 gem install teamocil
 
 # Vim & IDEs
+brew install ctags
+brew install the_silver_searcher
+brew install pt
+brew install rpl
 brew cask install macvim
 curl -L https://bit.ly/janus-bootstrap | bash
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
@@ -77,6 +77,7 @@ brew install mysql
 brew cask install sequel-pro
 
 # Networking
+brew install mobile-shell
 brew cask install airvpn
 brew cask install tunnelblick
 brew cask install tunnelbear
