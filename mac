@@ -83,6 +83,10 @@ brew cask install tunnelblick
 brew cask install tunnelbear
 brew install homebrew/binary/ngrok2
 
+# Browsers
+brew cask install --appdir="/Applications" brave
+brew cask install --appdir="/Applications" vivaldi
+
 # PERSONAL -- move this to .local
 
 # IM
