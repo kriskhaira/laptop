@@ -86,6 +86,7 @@ brew install homebrew/binary/ngrok2
 # Browsers
 brew cask install --appdir="/Applications" brave
 brew cask install --appdir="/Applications" vivaldi
+brew cask install --appdir="/Applications" firefox
 
 # PERSONAL -- move this to .local
 
