@@ -82,6 +82,7 @@ brew cask install airvpn
 brew cask install tunnelblick
 brew cask install tunnelbear
 brew install homebrew/binary/ngrok2
+brew install wget
 
 # Browsers
 brew cask install --appdir="/Applications" brave
