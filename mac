@@ -103,6 +103,7 @@ brew cask install --appdir="/Applications" google-drive
 brew cask install appzapper
 brew cask install bartender
 brew cask install textexpander
+brew cask install --appdir="/Applications" alfred
 
 # Run local
 if [ -f "$HOME/.laptop.local" ]; then
