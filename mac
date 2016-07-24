@@ -86,6 +86,8 @@ brew cask install tunnelblick
 brew cask install tunnelbear
 brew install homebrew/binary/ngrok2
 brew install wget
+npm install --global fast-cli
+npm install --global speed-test
 
 # Browsers
 brew cask install --appdir="/Applications" brave
