@@ -46,6 +46,7 @@ gem install teamocil
 
 # Vim & IDEs
 brew install ctags
+brew install sift
 brew install the_silver_searcher
 brew install pt
 brew install rpl
