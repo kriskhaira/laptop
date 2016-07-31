@@ -19,6 +19,7 @@ rcup
 brew install openssl
 brew install reattach-to-user-namespace
 brew install zsh
+brew install m-cli
 
 # Ruby
 brew install rbenv
