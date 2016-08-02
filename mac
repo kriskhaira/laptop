@@ -20,6 +20,7 @@ brew install openssl
 brew install reattach-to-user-namespace
 brew install zsh
 brew install m-cli
+brew cask install --appdir="/Applications" keycastr
 
 # Ruby
 brew install rbenv
