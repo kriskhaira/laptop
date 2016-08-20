@@ -90,7 +90,7 @@ brew install mobile-shell
 brew cask install airvpn
 brew cask install tunnelblick
 brew cask install tunnelbear
-brew cask install little-snitch
+brew cask install --appdir="/Applications" little-snitch
 brew install homebrew/binary/ngrok2
 brew install wget
 npm install --global fast-cli
