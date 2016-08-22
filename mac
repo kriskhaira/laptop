@@ -105,8 +105,8 @@ brew cask install --appdir="/Applications" firefox
 # PERSONAL -- move this to .local
 
 # IM & Communications
-brew cask install skype
-brew cask install whatsapp
+brew cask install --appdir="/Applications" skype
+brew cask install --appdir="/Applications" whatsapp
 brew cask install --appdir="/Applications" screenhero
 
 # Project Management
