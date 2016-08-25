@@ -112,6 +112,7 @@ brew cask install --appdir="/Applications" screenhero
 # Project Management
 brew cask install omnigraffle
 brew cask install --appdir="/Applications" google-drive
+brew cask install --appdir="/Applications" harvest
 
 # Productivity
 brew cask install appzapper
