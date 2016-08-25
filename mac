@@ -22,6 +22,7 @@ brew install zsh
 brew cask install --appdir="/Applications" backblaze
 brew install m-cli
 brew cask install --appdir="/Applications" keycastr
+brew cask install --appdir="/Applications" istat-menus
 
 # Ruby
 brew install rbenv
