@@ -120,6 +120,7 @@ brew cask install --appdir="/Applications" appzapper
 brew cask install bartender
 brew cask install --appdir="/Applications" textexpander
 brew cask install --appdir="/Applications" alfred
+brew cask install --appdir="/Applications" remember-the-milk
 
 # Run local
 if [ -f "$HOME/.laptop.local" ]; then
