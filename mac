@@ -95,6 +95,7 @@ brew cask install tunnelbear
 brew cask install --appdir="/Applications" little-snitch
 brew install homebrew/binary/ngrok2
 brew install wget
+brew install httpie
 npm install --global fast-cli
 npm install --global speed-test
 
