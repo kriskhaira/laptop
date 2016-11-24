@@ -34,6 +34,7 @@ gem install yard
 
 # Node
 brew install node
+brew install yarn
 echo "Installing NVM"
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.1/install.sh | bash
 nvm install 4.4.0
@@ -76,10 +77,10 @@ gem install git-up
 brew install bfg
 
 # Frontend tools
-npm install -g netlify
-npm install -g firebase
-npm install -g bower
-npm install -g ember-cli
+yarn global add netlify
+yarn global add firebase
+yarn global add bower
+yarn global add ember-cli
 brew install watchman
 brew cask install glueprint
 
@@ -96,8 +97,8 @@ brew cask install --appdir="/Applications" little-snitch
 brew install homebrew/binary/ngrok2
 brew install wget
 brew install httpie
-npm install --global fast-cli
-npm install --global speed-test
+yarn global add fast-cli
+yarn global add speed-test
 
 # Browsers
 brew cask install --appdir="/Applications" brave
