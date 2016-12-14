@@ -42,6 +42,7 @@ nvm use 4.4.0
 nvm alias default 4.4.0
 
 # Other Languages
+brew cask install --appdir="/Applications" dash
 brew install Caskroom/cask/java
 brew install leiningen
 brew install golang
