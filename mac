@@ -95,6 +95,7 @@ brew cask install airvpn
 brew cask install tunnelblick
 brew cask install tunnelbear
 brew cask install --appdir="/Applications" little-snitch
+brew cask install --appdir="/Applications" transmit
 brew install homebrew/binary/ngrok2
 brew install wget
 brew install httpie
