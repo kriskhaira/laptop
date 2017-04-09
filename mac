@@ -57,6 +57,7 @@ brew install ctags
 brew install sift
 brew install the_silver_searcher
 brew install pt
+brew install ack
 brew install rpl
 brew cask install --appdir="/Applications" macvim
 curl -L https://bit.ly/janus-bootstrap | bash
