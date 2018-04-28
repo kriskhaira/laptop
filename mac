@@ -94,7 +94,7 @@ brew cask install --appdir="/Applications" sequel-pro
 brew install mobile-shell
 brew cask install airvpn
 brew cask install tunnelblick
-brew cask install tunnelbear
+brew cask install --appdir="/Applications" tunnelbear
 brew cask install --appdir="/Applications" little-snitch
 brew cask install --appdir="/Applications" transmit
 brew install homebrew/binary/ngrok2
