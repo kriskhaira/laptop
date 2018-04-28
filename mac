@@ -126,6 +126,7 @@ brew cask install bartender
 brew cask install --appdir="/Applications" textexpander
 brew cask install --appdir="/Applications" alfred
 brew cask install --appdir="/Applications" remember-the-milk
+brew cask install --appdir="/Applications" libreoffice
 
 # Run local
 if [ -f "$HOME/.laptop.local" ]; then
