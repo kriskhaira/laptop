@@ -91,7 +91,7 @@ brew install mysql
 brew cask install --appdir="/Applications" sequel-pro
 
 # Networking
-brew install mobile-shell
+brew install mosh
 brew cask install airvpn
 brew cask install tunnelblick
 brew cask install --appdir="/Applications" tunnelbear
