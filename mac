@@ -3,11 +3,12 @@
 # Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+# -- Keyboard and mouse:
+# <Switch to Colemak>
+# <Turn on tap to click>
+
 # Install iTerm2
 brew install --cask iterm2
-
-# Git
-brew install git
 
 # Set up dotfiles
 git clone git@github.com:kriskhaira/dotfiles.git ~/code/dotfiles
@@ -18,10 +19,11 @@ brew tap thoughtbot/formulae
 brew install rcm
 rcup
 
-# Useful tools
+# ?
 brew install openssl
 brew install reattach-to-user-namespace
-brew install zsh
+
+# Install backblaze
 brew cask install --appdir="/Applications" backblaze
 brew install m-cli
 brew cask install --appdir="/Applications" keycastr
