@@ -28,10 +28,10 @@ brew install openssl
 brew install reattach-to-user-namespace
 
 # Install backblaze
-brew cask install --appdir="/Applications" backblaze
+brew install backblaze
 brew install m-cli
-brew cask install --appdir="/Applications" keycastr
-brew cask install --appdir="/Applications" istat-menus
+brew install keycastr
+brew install istat-menus
 
 # Ruby
 brew install rbenv
@@ -51,7 +51,7 @@ nvm use 4.4.0
 nvm alias default 4.4.0
 
 # Other Languages
-brew cask install --appdir="/Applications" dash
+brew install dash
 brew install Caskroom/cask/java
 brew install leiningen
 brew install golang
@@ -63,17 +63,17 @@ brew install the_silver_searcher
 brew install pt
 brew install ack
 brew install rpl
-brew cask install --appdir="/Applications" macvim
+brew install macvim
 curl -L https://bit.ly/janus-bootstrap | bash
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-brew cask install --appdir="/Applications" atom
-brew cask install --appdir="/Applications" macdown
+brew install atom
+brew install macdown
 
 # Image manipulation
 brew install imagemagick
-brew cask install --appdir="/Applications" xquartz
-brew cask install --appdir="/Applications" inkscape
+brew install xquartz
+brew install inkscape
 
 # GitHub/Git Tools
 brew install hub
@@ -88,19 +88,19 @@ yarn global add firebase
 yarn global add bower
 yarn global add ember-cli
 brew install watchman
-brew cask install glueprint
+brew install glueprint
 
 # Databases
 brew install mysql
-brew cask install --appdir="/Applications" sequel-pro
+brew install sequel-pro
 
 # Networking
 brew install mosh
-brew cask install airvpn
-brew cask install tunnelblick
-brew cask install --appdir="/Applications" tunnelbear
-brew cask install --appdir="/Applications" little-snitch
-brew cask install --appdir="/Applications" transmit
+brew install airvpn
+brew install tunnelblick
+brew install tunnelbear
+brew install little-snitch
+brew install transmit
 brew install homebrew/binary/ngrok2
 brew install wget
 brew install httpie
@@ -108,24 +108,24 @@ yarn global add fast-cli
 yarn global add speed-test
 
 # Browsers
-brew cask install --appdir="/Applications" brave
-brew cask install --appdir="/Applications" vivaldi
-brew cask install --appdir="/Applications" firefox
+brew install brave
+brew install vivaldi
+brew install firefox
 
 # PERSONAL -- move this to .local
 
 # Project Management
-brew cask install omnigraffle
-brew cask install --appdir="/Applications" google-drive
-brew cask install --appdir="/Applications" harvest
+brew install omnigraffle
+brew install google-drive
+brew install harvest
 
 # Productivity
-brew cask install --appdir="/Applications" appzapper
-brew cask install bartender
-brew cask install --appdir="/Applications" textexpander
-brew cask install --appdir="/Applications" alfred
-brew cask install --appdir="/Applications" remember-the-milk
-brew cask install --appdir="/Applications" libreoffice
+brew install appzapper
+brew install bartender
+brew install textexpander
+brew install alfred
+brew install remember-the-milk
+brew install libreoffice
 
 # Run local
 if [ -f "$HOME/.laptop.local" ]; then
